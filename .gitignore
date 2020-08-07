@@ -39,3 +39,10 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+#Ignore test file, tmp file, public/system , public/assets
+test/
+tmp/
+public/system
+public/assets
+/config/database.yml

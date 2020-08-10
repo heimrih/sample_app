@@ -1,0 +1,33 @@
+
+vi:
+  site_name: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  global:
+    home: "Trang Chủ"
+    help: "Cứu giúp"
+    about: "Trong khoảng"
+  static_pages:
+    home:
+      title: "Trang Chủ"
+    help:
+      title: "Cứu giúp"
+    about:
+      title: "Trong khoảng"
+  home:
+    message: "Ruby on Rails"
+    page: "Đây là trang chủ của "
+    sample: " ứng dụng mẫu."
+  help:
+    message: "Ruby On Rails trang trợ giúp"
+    book: "sách"
+    page: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại "
+    sample: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem "
+  about:
+    message: "Hướng dẫn về Ruby On Rails"
+    part: ", một phần của"
+    family: " gia đình của hướng dẫn, là một "
+    learn: " học đủ "
+    screen: " và loạt phim truyền hình "
+    book: " sách "
+    teach: " dạy phát triển web với "
+    sample: " Đây là ứng dụng mẫu cho hướng dẫn. "
+    page: "Ruby On Rails"

@@ -1,3 +1,34 @@
 
 en:
-  hello: "Hello world"
+  site_name: "Ruby on Rails Tutorial Sample App"
+  global:
+    home: "Home"
+    help: "Help"
+    about: "About"
+  static_pages:
+    home:
+      title: "Home"
+    help:
+      title: "Help"
+    about:
+      title: "About"
+  home:
+    message: "Ruby on Rails"
+    page: "This is the home page for the "
+    sample: " sample application."
+  help:
+    message: "Ruby on Rails Help page"
+    book: "book"
+    page: "Get help on the Ruby on Rails Tutorial at the "
+    sample: "To get help on this sample app, see the "
+  about:
+    message: "The Ruby on Rails Tutorial"
+    part: ", part of the "
+    family: " family of tutorials, is a "
+    screen: " and screencast series "
+    book: " book "
+    learn: " Learn Enough "
+    teach: " to teach web development with "
+    page: "Ruby on Rails"
+    sample: " This is the sample app for the tutorials "
+

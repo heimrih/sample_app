@@ -7,11 +7,15 @@ gem "rails", "~> 6.0.3", ">= 6.0.3.2"
 
 gem "rails-i18n"
 
+gem "config"
+
 gem "mysql2", "~> 0.5.2"
 
 gem "puma", "~> 4.1"
 
 gem "sass-rails", ">= 6"
+
+gem "bootstrap-sass", "3.4.1"
 
 gem "webpacker", "~> 4.0"
 

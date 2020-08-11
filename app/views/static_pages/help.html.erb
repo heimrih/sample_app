@@ -2,8 +2,8 @@
 <title><%= t ".title" %></title>
 <h1><%= t "static_pages.help.title" %></h1>
 <p>
-<%= t("help.page") %>
-<%= link_to t("help.message"), "https://www.railstutorial.org/help" %>.
-<%= t("help.sample") %>
-<%= link_to t("help.book"), "https://www.railstutorial.org/book" %>.
+  <%= t("help.page") %>
+  <%= link_to t("help.message"), Settings.links.rails_tutorial.help_page %>.
+  <%= t("help.sample") %>
+  <%= link_to t("help.book"), Settings.links.rails_tutorial.book_page %>.
 </p>

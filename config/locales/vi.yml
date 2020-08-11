@@ -1,5 +1,6 @@
 
 vi:
+  signup: "Đăng ký ngay!"
   site_name: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   global:
     home: "Trang Chủ"
@@ -31,3 +32,5 @@ vi:
     teach: " dạy phát triển web với "
     sample: " Đây là ứng dụng mẫu cho hướng dẫn. "
     page: "Ruby On Rails"
+  people:
+    michael: " của Michael Hartl."

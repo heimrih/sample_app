@@ -1,5 +1,6 @@
 
 en:
+  signup: "Sign up now!"
   site_name: "Ruby on Rails Tutorial Sample App"
   global:
     home: "Home"
@@ -31,4 +32,6 @@ en:
     teach: " to teach web development with "
     page: "Ruby on Rails"
     sample: " This is the sample app for the tutorials "
+  people:
+    michael: " by Michael Hartl."
 

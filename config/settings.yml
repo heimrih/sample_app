@@ -1,0 +1,8 @@
+links:
+  rails_tutorial:
+    home_page: "https://www.railstutorial.org/"
+    help_page: "https://www.railstutorial.org/help"
+    about_page: "https://rubyonrails.org/"
+    book_page: "https://www.railstutorial.org/book"
+    learnenough: "https://www.learnenough.com/"
+    screencast: "https://screencasts.railstutorial.org/"

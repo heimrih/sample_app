@@ -8,22 +8,13 @@
 
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
     <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render "layouts/shim" %>
   </head>
-
   <body>
-    <nav>
-      <ul>
-        <li><%= link_to t("global.home"), root_path %></li>
-        <li><%= link_to t("global.help"), help_path %></li>
-        <li><%= link_to t("global.about"), about_path %></li>
-      </ul>
-
-      <ul>
-        <li><%= link_to "English", root_path(locale: :en) %></li>
-        <li><%= link_to "Tiếng Việt", root_path(locale: :vi) %></li>
-      </ul>
-
-    </nav>
-    <%= yield %>
+    <%= render "layouts/header" %>
+      <div class="container">
+        <%= yield %>
+        <%= render "layouts/footer" %>
+      </div>
   </body>
 </html>

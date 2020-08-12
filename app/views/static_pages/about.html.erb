@@ -3,14 +3,13 @@
 <title><%= t ".title" %></title>
 <h1><%= t ".title" %></h1>
 <p>
-
-<%= link_to t("about.message"), "http://www.railstutorial.org/" %>
-<%= t("about.part") %>
-<%= link_to t("about.learn"), "https://www.learnenough.com/" %>
-<%= t("about.family") %>
-<%= link_to t("about.book"), "https://www.railstutorial.org/book" %>
-<%= link_to t("about.screen"), "https://screencasts.railstutorial.org/" %>
-<%= t("about.teach") %>
-<%= link_to t("about.page"), "https://rubyonrails.org/" %>.
-<%= t("about.sample") %>
+  <%= link_to t("about.message"), Settings.links.rails_tutorial.home_page %>
+  <%= t("about.part") %>
+  <%= link_to t("about.learn"), Settings.links.rails_tutorial.learnenough %>
+  <%= t("about.family") %>
+  <%= link_to t("about.book"), Settings.links.rails_tutorial.book_page %>
+  <%= link_to t("about.screen"), Settings.links.rails_tutorial.screencast %>
+  <%= t("about.teach") %>
+  <%= link_to t("about.page"), Settings.links.rails_tutorial.about_page %>.
+  <%= t("about.sample") %>
 </p>

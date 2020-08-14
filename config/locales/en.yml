@@ -1,5 +1,19 @@
 
 en:
+  user:
+    title: "Sign up"
+    new:
+      confirmation: "Password Confirmation"
+      password: "Password"
+      name: "Name"
+      email: "Email"
+      create: "Create my account"
+      welcome: "Welcome to the Sample App!"
+      danger: "Fail to Create!"
+      notfound: "User not found!"
+    error:
+      errors: "error"
+      message: "This form contains"
   signup: "Sign up now!"
   site_name: "Ruby on Rails Tutorial Sample App"
   global:

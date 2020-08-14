@@ -1,5 +1,19 @@
 
 vi:
+  user:
+    title: "Đăng ký"
+    new:
+      password: "Xác nhận"
+      confirmation: "xác nhận mật khẩu"
+      name: "Tên"
+      email: "E-mail"
+      create: "Tạo tài khoản của tôi"
+      welcome: "Chào mừng bạn đến với Ứng dụng Mẫu!"
+      danger: "Không tạo được!"
+      notfound: "Không tìm thấy người dùng!"
+    error:
+      errors: "lỗi"
+      message: "Biểu mẫu này chứa"
   signup: "Đăng ký ngay!"
   site_name: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   global:

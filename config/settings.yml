@@ -6,6 +6,7 @@ links:
     book_page: "https://www.railstutorial.org/book"
     learnenough: "https://www.learnenough.com/"
     screencast: "https://screencasts.railstutorial.org/"
+  gravartar: "https://secure.gravatar.com/avatar/"
 
 validations:
   name:

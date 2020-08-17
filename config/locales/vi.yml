@@ -1,6 +1,17 @@
 
 vi:
+  login:
+    title: "Đăng nhập"
+    newuser: "Người dùng mới? "
+    fail: "Tổ hợp email / mật khẩu không hợp lệ"
+    logout: "Đăng xuất"
+    account: "Tài khoản"
+    password: "Xác nhận"
+    email: "E-mail"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
   user:
+    user: "Người sử dụng"
     title: "Đăng ký"
     new:
       password: "Xác nhận"
@@ -48,3 +59,4 @@ vi:
     page: "Ruby On Rails"
   people:
     michael: " của Michael Hartl."
+  language: "Ngôn ngữ"

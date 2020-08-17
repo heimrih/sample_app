@@ -5,11 +5,40 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("global.home"), root_path %></li>
         <li><%= link_to t("global.help"), help_path %></li>
+
+        <% if logged_in? %>
+          <li><%= link_to t("user.user"), "#" %></li>
+          <li class="dropdown">
+            <%= link_to "#", {class: "dropdown-toggle", data: {"toggle" =>
+              "dropdown"}} do %>
+              <%= t "login.account" %>
+              <b class="caret"></b>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li><%= link_to t("profile"), current_user %></li>
+              <li><%= link_to t("settings"), "#" %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to t("login.logout"), logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t("login.title"), login_path %></li>
+        <% end %>
       </ul>
-      <ul>
-        <li><%= link_to t("English"), root_path(locale: :en) %></li>
-        <li><%= link_to t("Tiếng Việt"), root_path(locale: :vi) %></li>
-      </ul>
+      <li class="dropdown2">
+        <%= link_to "#", {class: "dropdown-toggle", data: {"toggle" =>
+          "dropdown"}} do %>
+          <%= t "language" %>
+          <b class="caret"></b>
+        <ul class="dropdown-menu">
+          <li><%= link_to t("English"), root_path(locale: :en) %></li>
+          <li><%= link_to t("Tiếng Việt"), root_path(locale: :vi) %></li>
+          <li class="divider"></li>
+        </ul>
+      </li>
+      <% end %>
     </nav>
   </div>
 </header>

@@ -1,6 +1,17 @@
 
 en:
+  login:
+    title: "Log in"
+    newuser: "New user? "
+    fail: "Invalid email/password combination"
+    logout: "Log out"
+    account: "Account"
+    password: "Password"
+    email: "Email"
+  profile: "Profile"
+  settings: "Settings"
   user:
+    user: "User"
     title: "Sign up"
     new:
       confirmation: "Password Confirmation"
@@ -48,4 +59,5 @@ en:
     sample: " This is the sample app for the tutorials "
   people:
     michael: " by Michael Hartl."
+  language: "Language"
 

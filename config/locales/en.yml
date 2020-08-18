@@ -8,6 +8,7 @@ en:
     account: "Account"
     password: "Password"
     email: "Email"
+    rememberme: "Remember me on this computer"
   profile: "Profile"
   settings: "Settings"
   user:

@@ -8,6 +8,7 @@ vi:
     account: "Tài khoản"
     password: "Xác nhận"
     email: "E-mail"
+    rememberme: "Hãy nhớ tôi trên máy tính này"
   profile: "Hồ sơ"
   settings: "Cài đặt"
   user:

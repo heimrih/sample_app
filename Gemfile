@@ -9,6 +9,8 @@ gem "rails-i18n"
 
 gem "config"
 
+gem "jquery-rails", "4.3.1"
+
 gem "mysql2", "~> 0.5.2"
 
 gem "puma", "~> 4.1"

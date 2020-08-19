@@ -21,7 +21,11 @@ gem "sass-rails", ">= 6"
 
 gem "bootstrap-sass", "3.4.1"
 
+gem "kaminari"
+
 gem "webpacker", "~> 4.0"
+
+gem "faker"
 
 gem "turbolinks", "~> 5"
 

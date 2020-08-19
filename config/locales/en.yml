@@ -11,9 +11,13 @@ en:
     rememberme: "Remember me on this computer"
   profile: "Profile"
   settings: "Settings"
+  sampleapp: "SAMPLE APP"
   user:
     user: "User"
     title: "Sign up"
+    login: "Please log in."
+    confirm: "Are you sure?"
+    delete: "Delete"
     new:
       confirmation: "Password Confirmation"
       password: "Password"
@@ -26,6 +30,16 @@ en:
     error:
       errors: "error"
       message: "This form contains"
+    edit:
+      title: "Edit user"
+      change: "Save changes"
+      update: "Update your profile"
+      updatesuccess: "Profile updated"
+      updatefail: "Fail to update profile"
+      deletesuccess: "User deleted"
+      deletefail: "Fail to delete user"
+    all:
+      title: "All users"
   signup: "Sign up now!"
   site_name: "Ruby on Rails Tutorial Sample App"
   global:

@@ -7,6 +7,7 @@ links:
     learnenough: "https://www.learnenough.com/"
     screencast: "https://screencasts.railstutorial.org/"
   gravartar: "https://secure.gravatar.com/avatar/"
+  gravartar_change: "https://gravatar.com/emails"
 
 validations:
   name:
@@ -16,3 +17,7 @@ validations:
     regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
   password:
     min_length: 6
+
+gravartar:
+  size_default: 80
+  size_list: 50

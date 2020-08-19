@@ -11,9 +11,12 @@ vi:
     rememberme: "Hãy nhớ tôi trên máy tính này"
   profile: "Hồ sơ"
   settings: "Cài đặt"
+  sampleapp: "ỨNG DỤNG MẪU"
   user:
     user: "Người sử dụng"
     title: "Đăng ký"
+    confirm: "Bạn có chắc không?"
+    delete: "Xóa bỏ"
     new:
       password: "Xác nhận"
       confirmation: "xác nhận mật khẩu"
@@ -26,6 +29,16 @@ vi:
     error:
       errors: "lỗi"
       message: "Biểu mẫu này chứa"
+    edit:
+      title: "Người dùng biên tập"
+      change: "Lưu thay đổi"
+      update: "Cập nhật hồ sơ của bạn"
+      updatesuccess: "Hồ sơ cá nhân đã cập nhật"
+      updatefail: "Không cập nhật được hồ sơ"
+      deletesuccess: "Người dùng đã bị xóa"
+      deletefail: "Không thể xóa người dùng"
+    all:
+      title: "Tất cả người dùng"
   signup: "Đăng ký ngay!"
   site_name: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   global:

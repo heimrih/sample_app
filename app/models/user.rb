@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   USERS_PARAMS = %i(name email password password_confirmation).freeze
 
-  attr_accessor :remember_token, :activation_token
+  attr_accessor :remember_token, :activation_token, :reset_token
 
   validates :name, presence: true,
     length: { maximum: Settings.validations.name.max_length }
@@ -43,7 +43,7 @@ class User < ApplicationRecord
     return false unless digest
 
     BCrypt::Password.new(digest).is_password? token
-end
+  end
 
   def forget
     update_attribute :remember_digest, nil
@@ -54,7 +54,20 @@ end
   end
 
   def send_activation_email
-    UserMailer.account_activation(self).deliver_now
+    UserMailer.account_activation self.deliver_now
+  end
+
+  def create_reset_digest
+    self.reset_token = User.new_token
+    update_columns reset_digest: FILL_IN, reset_sent_at: FILL_IN
+  end
+
+  def send_password_reset_email
+    UserMailer.password_reset self.deliver_now
+  end
+
+  def password_reset_expired?
+    reset_sent_at < Settings.params.two.hours.ago
   end
 
   private

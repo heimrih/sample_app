@@ -27,6 +27,8 @@ gem "webpacker", "~> 4.0"
 
 gem "faker"
 
+gem "figaro"
+
 gem "turbolinks", "~> 5"
 
 gem "jbuilder", "~> 2.7"

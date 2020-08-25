@@ -12,6 +12,9 @@ en:
   profile: "Profile"
   settings: "Settings"
   sampleapp: "SAMPLE APP"
+  sample:
+    welcome: "Welcome to the Sample App! "
+    activation: "Click on the link below to activate your account:"
   user:
     user: "User"
     title: "Sign up"
@@ -38,6 +41,14 @@ en:
       updatefail: "Fail to update profile"
       deletesuccess: "User deleted"
       deletefail: "Fail to delete user"
+    activation:
+      activate: "Activate"
+      activation: "Account activation"
+      success: "Account activated!"
+      invalid: "Invalid activation link"
+      message: "Account not activated. Check your email for the activation link."
+      check: "Check your email for the activation link."
+
     all:
       title: "All users"
   signup: "Sign up now!"

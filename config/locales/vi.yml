@@ -12,6 +12,9 @@ vi:
   profile: "Hồ sơ"
   settings: "Cài đặt"
   sampleapp: "ỨNG DỤNG MẪU"
+  sample:
+    welcome: "Chào mừng bạn đến với Ứng dụng Mẫu! "
+    activation: "Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
   user:
     user: "Người sử dụng"
     title: "Đăng ký"
@@ -37,6 +40,13 @@ vi:
       updatefail: "Không cập nhật được hồ sơ"
       deletesuccess: "Người dùng đã bị xóa"
       deletefail: "Không thể xóa người dùng"
+    activation:
+      activate: "Kích hoạt"
+      activation: "Kích hoạt tài khoản"
+      success: "Tài khoản đã được kích hoạt!"
+      invalid: "Liên kết kích hoạt không hợp lệ"
+      message: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để tìm liên kết kích hoạt."
+      check: "Kiểm tra email của bạn để tìm liên kết kích hoạt."
     all:
       title: "Tất cả người dùng"
   signup: "Đăng ký ngay!"

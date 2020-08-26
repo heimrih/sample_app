@@ -48,7 +48,6 @@ en:
       invalid: "Invalid activation link"
       message: "Account not activated. Check your email for the activation link."
       check: "Check your email for the activation link."
-
     all:
       title: "All users"
   signup: "Sign up now!"
@@ -86,4 +85,23 @@ en:
   people:
     michael: " by Michael Hartl."
   language: "Language"
-
+  forgot:
+    password: "(Forgot password)"
+    title: "Forgot Password"
+    email: "Email"
+    submit: "Submit"
+    success: "Email sent with password reset instructions"
+    fail: "Email address not found"
+    reset:
+      title: "Password reset"
+      message: "To reset your password click the link below:"
+      password: "Reset password"
+      expire: "This link will expire in two hours."
+      ignore: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+      passwordlabel: "Password"
+      confirmation: "Password Confirmation"
+      update: "Update Password"
+      success: "Password has been reset."
+      error: "can't be empty."
+      sessionexpire: "Password reset has expired."
+      fail: "Password reset failed."

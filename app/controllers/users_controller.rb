@@ -8,6 +8,10 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  def show
+    @microposts = @user.microposts.page params[:page]
+  end
+
   def index
     @users = User.order("name").page(params[:page])
   end
@@ -67,10 +71,11 @@ class UsersController < ApplicationController
   end
 
   def correct_user
+    @user = User.find(params[:id])
     redirect_to root_path unless current_user? @user
   end
 
   def admin_user
-    redirect_to(root_url) unless current_user.admin?
+    redirect_to root_path unless current_user.admin?
   end
 end

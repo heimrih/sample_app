@@ -7,6 +7,12 @@ gem "rails", "~> 6.0.3", ">= 6.0.3.2"
 
 gem "rails-i18n"
 
+gem "image_processing", "1.9.3"
+
+gem "mini_magick", "4.9.5"
+
+gem "active_storage_validations", "0.8.2"
+
 gem "config"
 
 gem "jquery-rails", "4.3.1"

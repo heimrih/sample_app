@@ -23,6 +23,7 @@ validations:
 gravartar:
   size_default: 80
   size_list: 50
+  size_mini: 30
 
 params:
   one: 1

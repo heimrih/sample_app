@@ -105,3 +105,24 @@ en:
       error: "can't be empty."
       sessionexpire: "Password reset has expired."
       fail: "Password reset failed."
+  micropost:
+    create: "Micropost created!"
+    delete: "Micropost deleted!"
+    failcreate: "Micropost failed to be created!"
+    faildelete: "Micropost failed to be deleted!"
+    notfound: "Micropost not found!"
+    error:
+      imageformat: "must be a valid image format"
+      sizeformat: "should be less than 5MB"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+    timestamp:
+      posted: "Posted "
+      ago: " ago."
+      delete: "delete"
+      confirm: "You sure? "
+    placeholder: "Compose new micropost..."
+    post: "Post"
+    suffix: "micropost"
+    view: "View my profile"
+    feed: "Micropost Feed"
+

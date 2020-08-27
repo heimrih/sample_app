@@ -125,4 +125,12 @@ en:
     suffix: "micropost"
     view: "View my profile"
     feed: "Micropost Feed"
+  follower:
+    follow: "Follow"
+    unfollow: "Unfollow"
+    following: "%{count} Following"
+    followers: "%{count} Followers"
+    profile: "Profile"
+    micrposts: "Microposts:"
+    fail: "Failed to follow"
 
